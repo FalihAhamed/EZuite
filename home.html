@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleet Management</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-group">
+            <img src="assets/menu.png" alt="Logo 1" class="logo">
+            <img src="assets/logo.png" alt="Logo 2" class="logo2">
+            <img src="assets/logo3.png" alt="Logo 3" class="logo3">
+        </div>
+        <div class="logo-group">
+            <img src="assets/not.png" alt="Logo 4" class="logo4">
+            <img src="assets/profile.png" alt="Logo 5" class="logo5">
+            <span class="bvt">Enhanzer (pvt) Ltd</span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="left-column">
+            <div class="left-buttons">
+                <div class="button-wrapper">
+                    <img src="assets/dashboard.png" alt="Dashboard" class="b1">
+                    <span class="button-name">Dashboard</span>
+                </div>
+                <div class="button-wrapper">
+                    <img src="assets/dashboard.png" alt="Deals" class="b1">
+                    <span class="button-name">Deals</span>
+                </div>
+                <div class="button-wrapper">
+                    <img src="assets/reports.png" alt="Reports" class="b1">
+                    <span class="button-name">Reports</span>
+                </div>
+                <div class="button-wrapper">
+                    <img src="assets/config.png" alt="Config" class="b1">
+                    <span class="button-name">Config</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="row medium-row">
+                <div class="inner-row icon-left">
+                    <button aria-label="Choose Date" class="icon-button button-calendar">
+                        📅
+                    </button>
+                </div>
+                <div class="inner-row"></div>
+                <div class="inner-row icon-right">
+                    <button aria-label="New Deal" class="icon-button button-new-deal">
+                        New Deal
+                    </button>
+                </div>
+            </div>
+            <div class="row small-row">
+                <input type="text" class="search-bar" placeholder="Search..." id="search-bar">
+            </div>
+            <div class="row large-row" id="table-container"></div>
+            <div id="error-message" class="error-message"></div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
